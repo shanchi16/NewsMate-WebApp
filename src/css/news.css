@@ -1,0 +1,31 @@
+.itemm {
+    max-width:  400px;
+    background-color: #282828;
+}
+
+.img{
+    object-fit: cover;
+    height: 240px;
+}
+.heading{
+    color: white;
+    margin-top: 5.4rem;
+}
+
+@media (max-width: 768px) {
+    .img{
+        height: 180px;
+    }
+}
+@media (max-width: 576px){
+    .container, .container-sm {
+        max-width: 80%;
+    }
+    html{
+        font-size: 12px;
+    }
+    .img{
+        height: 140px;
+    }
+    
+}
